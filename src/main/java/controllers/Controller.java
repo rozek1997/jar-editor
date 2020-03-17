@@ -82,7 +82,7 @@ public class Controller {
         File jarFile = fileChooser.showOpenDialog(null);
         String path;
         path = jarFile.getAbsolutePath();
-        System.out.println(path.substring(0, path.lastIndexOf('\\')));
+        System.out.println(path.substring(0, path.lastIndexOf(File.separator)));
         try {
             if (jarFile == null) throw new IOException();
             TreeBuilder loader = TreeBuilder.initialize(path, jarTreeView);
