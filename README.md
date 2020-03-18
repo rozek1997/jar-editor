@@ -1,14 +1,12 @@
 # Jar Editor
 
-## Overview 
 Graphical application allowing make changes in .jar files: 
 - adding/deleting methods
 - adding /classes/constructors/fields
 - overriding constructors/methods
 
-Application allow you to take any .jar file and using java reflection .class tree.
-Then from within application you can change .class files. Then you can generate new .jar file with added code within jar editor app
-During generating new .jar file, app might have stayed unresponsive. To avoid this problem generating new .jar file works on another thread
+Application allow you to take any .jar file and using java reflection make changes within application = change .class files. Then you can generate new .jar file with added code within jar editor app
+During generating new .jar file, app might have stayed unresponsive. To avoid this problem, generation of new .jar file works on another thread
 
 
 ## Technology used 
@@ -16,9 +14,14 @@ During generating new .jar file, app might have stayed unresponsive. To avoid th
 - Javafx for GUI
 ## Preview
 
-![main-view](https://drive.google.com/uc?export=view&id=1bJje9_Db0qj_66Iu8h3WMx_zlRL_EnFe)
+### Main view
 
-![error-view](https://drive.google.com/uc?export=view&id=1nwQHUaTItJTf3yqprk_o7zdr651nawPo)
+![jar_editor_after editing](https://user-images.githubusercontent.com/38226876/76954476-b11bbe00-6910-11ea-992b-9e9617148ec3.png)
+
+### Error message
+
+![error-message](https://user-images.githubusercontent.com/38226876/76954499-ba0c8f80-6910-11ea-9f68-41dfb6bb436a.png)
+
 
 ## Running application
 
